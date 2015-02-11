@@ -1,0 +1,74 @@
+/*
+ blue background: http://pixabay.com/en/background-blue-wallpaper-design-159244/;
+ Hands: http://pixabay.com/en/hands-hand-raised-hands-raised-220163/;
+ http://pichost.me/1792622/
+ http://subtlepatterns.com/ 
+ */
+
+html * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body { 
+	/*padding-top: 60px;*/
+}
+
+.contact-logo {
+    text-align: center;
+}
+
+.navbar { 
+	background-color: #195C97;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-nav li a {
+ 	line-height: 60px;
+ 	font-size: 16px;
+ 	font-weight:normal;
+}
+
+#about { 
+    background: url(../images/background_trig.png) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    /*box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+    padding: 100px 0;
+}
+
+#about .container {
+	text-align: center;
+}
+
+#projects { 
+    background: url(../images/background_escher.png) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    /*box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+    padding: 100px 0;
+}
+
+#activities { 
+    background: url(../images/background_home.png) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    /*box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+    padding: 100px 0;
+    color: #fff;
+}
+
+#contact { 
+    background: url(../images/background_trig.png) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    padding: 25px 0;
+}
